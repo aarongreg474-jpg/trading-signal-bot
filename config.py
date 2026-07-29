@@ -24,8 +24,10 @@ DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "YOUR_WEBHOOK_URL")
 # ---------------------------------------------------------------
 # Twelve Data symbol format. Forex pairs and major crypto.
 PAIRS = [
+    PAIRS = [
     "EUR/USD", "GBP/USD", "USD/JPY",
-    "BTC/USD", "ETH/USD",
+    "AUD/USD", "EUR/GBP",
+]
 ]
 
 # Timeframes used for the strategy:
